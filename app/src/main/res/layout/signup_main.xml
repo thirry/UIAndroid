@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/noise"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.95"
+        android:background="@drawable/slash_background"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_marginTop="0dp">
+
+        <!--<RelativeLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content">-->
+
+
+
+        <!--</RelativeLayout>-->
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:layout_marginRight="185dp"
+            >
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:background="@drawable/left_arrow"
+                android:alpha="0.8">
+
+            </ImageView>
+
+
+            <!--android:layout_alignParentRight="true"/>-->
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="0dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_marginBottom="70dp"
+                    android:layout_marginTop="0dp"
+                    android:src="@drawable/creativity"
+                    android:alpha="0.8"/>
+            </LinearLayout>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:layout_marginRight="80dp"
+                android:fontFamily="serif-monospace"
+                android:text="YOUR NUMBER"
+                android:textColor="#000"
+                android:textSize="12dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginBottom="-10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+                <EditText
+                    android:layout_width="60dp"
+                    android:layout_height="37dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginRight="10dp"
+                    android:alpha="0.5"
+                    android:background="@drawable/text_field"
+                    android:text="+84"
+                    android:textColor="#fff"
+                    android:textSize="15dp"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:layout_width="180dp"
+                    android:layout_height="37dp"
+                    android:layout_marginBottom="10dp"
+                    android:alpha="0.5"
+                    android:background="@drawable/text_field"
+                    android:text="Mobile number"
+                    android:textColor="#fff"
+                    android:textSize="10dp"
+                    android:textStyle="italic" />
+
+
+            </LinearLayout>
+
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginBottom="2dp"-->
+            <!--android:layout_marginRight="80dp"-->
+            <!--android:text="PASSWORD"-->
+            <!--android:textColor="#fff"-->
+            <!--android:textSize="12dp" />-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="80dp"
+                    android:fontFamily="serif-monospace"
+                    android:text="PASSWORD"
+                    android:textColor="#000"
+                    android:textSize="12dp" />
+
+
+                <EditText
+                    android:layout_width="250dp"
+                    android:layout_height="37dp"
+                    android:layout_marginBottom="10dp"
+                    android:alpha="0.5"
+
+                    android:background="@drawable/text_field"
+                    android:textColor="#fff"
+                    android:textSize="10dp"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="80dp"
+                    android:fontFamily="serif-monospace"
+                    android:text="FINISH AGAIN"
+                    android:textColor="#000"
+                    android:textSize="12dp" />
+
+
+                <EditText
+                    android:layout_width="250dp"
+                    android:layout_height="37dp"
+                    android:alpha="0.5"
+                    android:background="@drawable/text_field"
+
+                    android:textColor="#fff"
+                    android:textSize="10dp"
+                    android:textStyle="italic" />
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:alpha="1.0">
+
+                <Button
+                    android:layout_width="250dp"
+                    android:layout_height="36dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/button_signin"
+                    android:text="DONE"
+                    android:textColor="#fff" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

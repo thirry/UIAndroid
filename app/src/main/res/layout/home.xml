@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.uilogin.gone.uilogin.Home"
+    android:orientation="vertical"
+    android:background="@drawable/app">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:alpha="0.8"
+        android:background="@color/colorPrimaryDark"
+        android:orientation="vertical"
+        android:paddingBottom="20dp"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:paddingTop="50dp">
+
+        <!--<LinearLayout-->
+        <!--andrimgound="@drawaimgound"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:alpha="0.2">-->
+        <!--</LinearLayout>-->
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:text="Vocabulary"
+            android:textColor="#fff"
+            android:textSize="75sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="-15dp"
+            android:text="everywhere"
+            android:textColor="#fff"
+            android:textSize="40sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:text="This is textView to say something with somebody else!"
+            android:textAlignment="textStart"
+            android:textColor="#fff"
+            android:textSize="10dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/button_login"
+                android:text="Let get it"
+                android:textColor="#fff" />
+
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/button_stroke"
+                android:text="Join now"
+                android:textColor="#fff" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="0dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:layout_marginRight="80dp"
+            android:text="USERNAME"
+            android:textColor="#fff"
+            android:textSize="12dp" />
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="37dp"
+            android:layout_marginBottom="10dp"
+            android:alpha="0.5"
+            android:background="@drawable/text_field"
+            android:textColor="#fff"
+            android:textSize="10dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:layout_marginRight="80dp"
+            android:text="PASSWORD"
+            android:textColor="#fff"
+            android:textSize="12dp" />
+
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="37dp"
+            android:alpha="0.5"
+
+            android:background="@drawable/text_field"
+            android:textColor="#fff"
+            android:textSize="10dp"
+            android:textStyle="italic" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="1.0">
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="36dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/button_signin"
+                android:text="DONE"
+                android:textColor="#fff" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_createaccount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="Don't have an account? "
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="10dp"
+            android:clickable="true"
+           />
+    </LinearLayout>
+
+
+</LinearLayout>
